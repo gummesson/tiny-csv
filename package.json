@@ -1,0 +1,36 @@
+{
+  "name": "tiny-csv",
+  "version": "1.0.0",
+  "description": "Parse a CSV string into an array of objects.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gummesson/tiny-csv.git"
+  },
+  "keywords": [
+    "csv",
+    "parse",
+    "parser",
+    "string"
+  ],
+  "author": "Ellen Gummesson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gummesson/tiny-csv/issues"
+  },
+  "homepage": "https://github.com/gummesson/tiny-csv",
+  "dependencies": {},
+  "devDependencies": {
+    "brfs": "^1.4.0",
+    "browserify": "^10.2.1",
+    "covert": "^1.1.0",
+    "smokestack": "^3.3.0",
+    "tap-closer": "^1.0.0",
+    "tape": "^4.0.0"
+  },
+  "scripts": {
+    "test": "node test/",
+    "test:browser": "browserify -t brfs test/ | tap-closer | smokestack",
+    "test:cover": "covert test/"
+  }
+}

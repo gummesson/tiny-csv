@@ -10,6 +10,11 @@ var csv  = require('../')
  * Tests
  */
 
+test('csv()', function(assert) {
+  assert.equal(csv(), null)
+  assert.end()
+})
+
 test('csv(input)', function(assert) {
   var input  = fs.readFileSync('test/fixtures/index.csv', 'utf8')
   var output = [

@@ -1,6 +1,6 @@
 {
   "name": "tiny-csv",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Parse a CSV string into an array of objects.",
   "main": "index.js",
   "repository": {

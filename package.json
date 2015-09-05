@@ -21,12 +21,12 @@
   "homepage": "https://github.com/gummesson/tiny-csv",
   "dependencies": {},
   "devDependencies": {
-    "brfs": "^1.4.0",
-    "browserify": "^10.2.1",
+    "brfs": "^1.4.1",
+    "browserify": "^11.0.1",
     "covert": "^1.1.0",
-    "smokestack": "^3.3.0",
+    "smokestack": "^3.3.1",
     "tap-closer": "^1.0.0",
-    "tape": "^4.0.0"
+    "tape": "^4.2.0"
   },
   "scripts": {
     "test": "node test/",

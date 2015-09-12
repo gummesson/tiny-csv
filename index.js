@@ -15,7 +15,7 @@ module.exports = csv
  */
 
 function csv(input, delimiter) {
-  if (!input) return null
+  if (!input) return []
   delimiter = delimiter || ','
 
   var lines  = toArray(input, /\r?\n/)

@@ -11,7 +11,7 @@ var csv  = require('../')
  */
 
 test('csv()', function(assert) {
-  assert.equal(csv(), null)
+  assert.deepEqual(csv(), [])
   assert.end()
 })
 
